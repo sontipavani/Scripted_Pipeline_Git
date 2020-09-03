@@ -13,7 +13,7 @@ pipeline{
         parallel{
             stage('Test on Windows'){
             agent{
-                label "Windows_Node"
+                label "Windows_node"
             }
             steps{
                 echo 'Task on agent1'
